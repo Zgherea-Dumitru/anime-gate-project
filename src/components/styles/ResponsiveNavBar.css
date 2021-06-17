@@ -1,0 +1,81 @@
+.responsive_navigation {
+  z-index: 3;
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+}
+
+.responsive_nav_button {
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  background-color: #0096ff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.navigation_div {
+  background-color: #0096ff;
+  padding: 25px 10px 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  animation: responsiveNav 0.1s;
+  transform-origin: bottom right;
+}
+
+@keyframes responsiveNav {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.navigation_row {
+  display: flex;
+}
+
+.nav_container_icon {
+  cursor: pointer;
+  color: #fff;
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav_container_icon:hover .nav_icon,
+.nav_container_icon:hover {
+  fill: #003459;
+  color: #003459;
+}
+
+.nav_icon {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.nav_icon:last-child {
+  width: 40px;
+  height: 40px;
+}
+
+.navigation_row p {
+  margin-top: 5px;
+  font-size: 0.7rem;
+}
+
+.close {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .responsive_navigation {
+    display: flex;
+  }
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+.footer {
+  width: 100%;
+  height: fit-content;
+  background-color: #003459;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.footer svg {
+  margin: 5% 0px;
+  min-width: 200px;
+}
+
+.footer_nagigation {
+  margin: 3% 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  min-width: fit-content;
+}
+
+.footer_column {
+  width: 25%;
+  min-width: 150px;
+  margin-bottom: 7%;
+  text-decoration: none;
+}
+
+.footer_column p {
+  color: #fff;
+  font-family: "Overpass", sans-serif;
+  margin-bottom: 0px;
+  user-select: none;
+}
+
+.footer_column p:hover {
+  color: #0096ff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    margin-top: 40%;
+  }
+  .footer_column {
+    width: 90%;
+    min-width: 0px;
+    margin: 0px auto 5%;
+  }
+  .footer svg {
+    margin-top: 20%;
+  }
+}

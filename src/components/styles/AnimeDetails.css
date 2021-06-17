@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+.anime_details_page {
+  width: 80vw;
+  height: fit-content;
+  margin: 3% auto 0px;
+}
+
+.details_img_top {
+  width: 100%;
+  height: 25vw;
+  min-height: 250px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.details_img_top img {
+  margin-top: 50%;
+  width: 100%;
+}
+
+.details_img_top_bg_color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(360deg, #003459 0%, rgba(0, 52, 89, 0) 40.06%);
+}
+
+.details_upper_info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.details_smallImg_buttons {
+  width: 200px;
+}
+
+.details_smallImg_buttons img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.details_list_buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.details_list_buttons button {
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: fit-content;
+  border-radius: 5px;
+  margin-top: 5%;
+  outline: none;
+  color: #003459;
+  background-color: rgb(0, 52, 89, 0);
+  padding: 0px;
+}
+
+.details_list_buttons button:hover {
+  color: #0096ff;
+}
+
+.adding_list {
+  height: 30px;
+  width: 30px;
+}
+
+.details_upperInfo_text {
+  font-family: "Overpass", sans-serif;
+  width: 70%;
+}
+
+.details_upperInfo_text h1 {
+  color: #003459;
+  font-weight: bold;
+}
+
+.details_upperInfo_text p {
+  color: #0096ff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.details_smallImg_buttons {
+  position: relative;
+  transform: translate(0%, -40%);
+}
+
+.details_anime_infos {
+  width: 95%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  background-color: #003459;
+  color: #fff;
+  font-family: "Overpass", sans-serif;
+  border-radius: 5px;
+}
+
+.details_anime_infos div {
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+}
+
+.details_anime_infos h3 {
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.details_anime_infos p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #0096ff;
+  margin: 0px;
+}
+
+.details_title {
+  width: 95%;
+  margin: 7% auto 1%;
+}
+
+.details_title h1 {
+  margin: 0px;
+  color: #003459;
+}
+
+.details_characters_container {
+  margin: 0% auto 0px;
+  width: 95%;
+  height: fit-content;
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.details_characters_box {
+  height: 80px;
+  width: 45%;
+  min-width: 360px;
+  display: flex;
+  background-color: #003459;
+}
+
+.details_characters_container:last-child {
+  margin-bottom: 5%;
+}
+
+.datails_box_actors {
+  width: 50%;
+  display: flex;
+}
+
+.datails_box_staff {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.datails_box_actors img,
+.datails_box_staff img {
+  height: 80px;
+  width: 51px;
+  object-fit: cover;
+}
+
+.datails_box_actors div,
+.datails_box_staff div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.datails_box_actors p,
+.datails_box_staff p {
+  padding-left: 10px;
+  font-size: 0.9rem;
+  color: #fff;
+  margin: 0px;
+}
+
+.datails_box_actors p:last-child,
+.datails_box_staff p:last-child {
+  color: #0096ff;
+}
+
+.datails_box_actors:last-child p,
+.datails_box_staff:last-child p {
+  padding-left: 0px;
+  padding-right: 10px;
+  text-align: end;
+}
+
+.datails_box_actors:last-child {
+  justify-content: flex-end;
+}
+
+.details_video {
+  display: block;
+  margin: 10% auto 10%;
+  height: 300px;
+  width: 60%;
+  max-width: 600px;
+}
+
+@media screen and (min-width: 700px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .anime_details_page {
+    width: 100vw;
+  }
+  .details_upperInfo_text {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .details_characters_box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .details_upper_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .details_upper_info p {
+    -webkit-line-clamp: 7;
+  }
+  .anime_details_page {
+    min-width: 0px;
+  }
+  .details_smallImg_buttons {
+    width: 180px;
+    height: 230px;
+  }
+  .details_upperInfo_text {
+    width: 95%;
+  }
+  .details_anime_infos {
+    margin-top: 5%;
+    overflow: auto;
+    width: 95%;
+    min-width: 0px;
+  }
+  .details_characters_box {
+    min-width: 310px;
+  }
+  .details_video {
+    width: 95%;
+  }
+  .details_title {
+    margin: 10% auto 1%;
+  }
+}

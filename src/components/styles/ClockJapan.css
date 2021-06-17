@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+.clock {
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  background-color: #003459;
+  width: 15vw;
+  min-width: 190px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.clock p {
+  user-select: none;
+  font-size: 1.5rem;
+  margin: 10px 15px 0px;
+}
+
+.clock p:last-child {
+  font-size: 1.3rem;
+  color: #0096ff;
+  margin: 0px 0px 10px;
+}
+
+@media screen and (max-width: 1500px) {
+  .clock p {
+    font-size: 1.2rem;
+  }
+  .clock p:last-child {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .clock {
+    display: none;
+  }
+}

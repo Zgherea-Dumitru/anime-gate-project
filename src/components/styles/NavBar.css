@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+.navigation_Main {
+  width: 100vw;
+  min-height: 5rem;
+  background-color: #003459;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.small_logo {
+  display: none;
+  cursor: pointer;
+}
+
+.navigation_links {
+  display: flex;
+  color: white;
+  font-family: "Overpass", sans-serif;
+  font-weight: 550;
+  font-size: 1rem;
+}
+
+.navBar_Link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation_links p {
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.navigation_links p:hover {
+  color: #0096ff;
+}
+
+.login_nav {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.login_nav p,
+.login_nav button {
+  font-family: "Overpass", sans-serif;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+.login_nav button {
+  margin-left: 30px;
+  font-size: 1rem;
+  height: fit-content;
+  padding: 0.2rem 0.8rem;
+  border-radius: 5px;
+  background-color: #0096ff;
+  outline: none;
+  border: none;
+  transition: transform 0.1s;
+}
+
+.login_nav button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px) {
+  .navigation_links {
+    display: none;
+  }
+  .login_nav {
+    display: none;
+  }
+  .big_logo {
+    display: none;
+  }
+  .small_logo {
+    display: inline;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/anime-gate/static/css/main.8620e3bc.chunk.css",
+    "main.js": "/anime-gate/static/js/main.e1c6834b.chunk.js",
+    "main.js.map": "/anime-gate/static/js/main.e1c6834b.chunk.js.map",
+    "runtime-main.js": "/anime-gate/static/js/runtime-main.b9cd8934.js",
+    "runtime-main.js.map": "/anime-gate/static/js/runtime-main.b9cd8934.js.map",
+    "static/css/2.c6fa5b8a.chunk.css": "/anime-gate/static/css/2.c6fa5b8a.chunk.css",
+    "static/js/2.5ffdd3ec.chunk.js": "/anime-gate/static/js/2.5ffdd3ec.chunk.js",
+    "static/js/2.5ffdd3ec.chunk.js.map": "/anime-gate/static/js/2.5ffdd3ec.chunk.js.map",
+    "index.html": "/anime-gate/index.html",
+    "static/css/2.c6fa5b8a.chunk.css.map": "/anime-gate/static/css/2.c6fa5b8a.chunk.css.map",
+    "static/css/main.8620e3bc.chunk.css.map": "/anime-gate/static/css/main.8620e3bc.chunk.css.map",
+    "static/js/2.5ffdd3ec.chunk.js.LICENSE.txt": "/anime-gate/static/js/2.5ffdd3ec.chunk.js.LICENSE.txt",
+    "static/media/Logo.2e6fe0c6.svg": "/anime-gate/static/media/Logo.2e6fe0c6.svg",
+    "static/media/LogoSmall.ce468be6.svg": "/anime-gate/static/media/LogoSmall.ce468be6.svg",
+    "static/media/about.595f9d40.svg": "/anime-gate/static/media/about.595f9d40.svg",
+    "static/media/bricks.b6c81eb6.svg": "/anime-gate/static/media/bricks.b6c81eb6.svg",
+    "static/media/browse.521f77e0.svg": "/anime-gate/static/media/browse.521f77e0.svg",
+    "static/media/check.1380d44f.svg": "/anime-gate/static/media/check.1380d44f.svg",
+    "static/media/dum.6c8ebbca.svg": "/anime-gate/static/media/dum.6c8ebbca.svg",
+    "static/media/App.css": "/anime-gate/static/media/funky-lines.3d7f30b8.png",
+    "static/media/github.56fa1f70.svg": "/anime-gate/static/media/github.56fa1f70.svg",
+    "static/media/leo.9f6cc60b.svg": "/anime-gate/static/media/leo.9f6cc60b.svg",
+    "static/media/linkedin.ceb348fc.svg": "/anime-gate/static/media/linkedin.ceb348fc.svg",
+    "static/media/list.2536e3b0.svg": "/anime-gate/static/media/list.2536e3b0.svg",
+    "static/media/login.599af6d1.svg": "/anime-gate/static/media/login.599af6d1.svg",
+    "static/media/Carousel2.css": "/anime-gate/static/media/prev.bf728c1c.svg",
+    "static/media/plus.5e21677f.svg": "/anime-gate/static/media/plus.5e21677f.svg",
+    "static/media/sam.375e28fb.svg": "/anime-gate/static/media/sam.375e28fb.svg",
+    "static/media/signin.12878b5d.svg": "/anime-gate/static/media/signin.12878b5d.svg",
+    "static/media/watchlist.06d27428.svg": "/anime-gate/static/media/watchlist.06d27428.svg",
+    "static/media/x.93d63f45.svg": "/anime-gate/static/media/x.93d63f45.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9cd8934.js",
+    "static/css/2.c6fa5b8a.chunk.css",
+    "static/js/2.5ffdd3ec.chunk.js",
+    "static/css/main.8620e3bc.chunk.css",
+    "static/js/main.e1c6834b.chunk.js"
+  ]
+}

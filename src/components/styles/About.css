@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+.about {
+  height: fit-content;
+  width: 100%;
+}
+
+.about > h1 {
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  color: #003459;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.creators {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.middle {
+  margin: 0px 10%;
+}
+
+.person {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person_content {
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  background-color: #003459;
+  border-radius: 10px;
+  color: #fff;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.person_content h1 {
+  font-size: 1.2rem;
+  margin: 0px;
+}
+
+.person_content p {
+  margin: 5px 0px 15px;
+}
+
+.person_links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact_link:hover {
+  cursor: pointer;
+  fill: #0096ff;
+}
+
+.person_logo {
+  height: 180px;
+  width: 180px;
+}
+
+.api {
+  border-radius: 5px;
+  width: 310px;
+  height: 130px;
+  background-color: #003459;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  margin: 0% auto 25% auto;
+}
+
+.api a {
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.api a:hover {
+  text-decoration: underline;
+}
+
+.api_logo {
+  background-image: url("../images/jikan.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
