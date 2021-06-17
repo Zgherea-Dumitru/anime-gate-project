@@ -4,7 +4,9 @@
 
 This is one of the three projects I did during the bootcamp at WildCodeSchool. 
 
-You can visit the site [here](https://samazinfar.github.io/anime-gate/)
+You can visit the site [here](https://samazinfar.github.io/anime-gate/).
+
+The [API](https://jikan.moe) we used.
 
 > note : The back-end will be added in a future upgrade.
 
